@@ -1,4 +1,4 @@
-# Terraform S3 Backend Example
+# Terraform  Backend and Locking Example
 
 ## Overview
 
