@@ -15,10 +15,10 @@ resource "aws_instance" "demo" {
   subnet_id     = "subnet-013516516"
 }
 
-# Define an AWS S3 bucket resource named "shiva-demo-state."
-resource "aws_s3_bucket" "shiva-demo-state" {
+# Define an AWS S3 bucket resource 
+resource "aws_s3_bucket" "Unique_bucket_name" {
   # Specify the name for the S3 bucket.
-  bucket = "shiva-demo-state"
+  bucket = "Unique_bucket_name"
 }
 resource "aws_dynamodb_table" "lock_table" {
   name           = "your-dynamodb-table-name"
